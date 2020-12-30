@@ -22,6 +22,27 @@ const anaSayfa=function(req, res, next) {
       'puan':5,
       'imkanlar':['Kahve','Çay','Pasta'],
       'mesafe':'1km'
+    },
+      {
+      'ad':'Burger King',
+      'adres':'SDÜ Doğu Kampüsü',
+      'puan':1,
+      'imkanlar':['Kahve','Çay','Pasta'],
+      'mesafe':'1km'
+    },
+      {
+      'ad':'Mado',
+      'adres':'SDÜ Doğu Kampüsü',
+      'puan':5,
+      'imkanlar':['Kahve','Çay','Pasta'],
+      'mesafe':'1km'
+    },
+      {
+      'ad':'Casia Cafe',
+      'adres':'SDÜ Doğu Kampüsü',
+      'puan':5,
+      'imkanlar':['Kahve','Çay','Pasta'],
+      'mesafe':'1km'
     }
     ]
   }
@@ -70,10 +91,10 @@ const mekanBilgisi=function(req, res, next) {
           'yorumMetni':'Kahveleri güzel.'
         },
         {
-          'yorumYapan':'asass',
+          'yorumYapan':'Süleyman Demirel',
           'puan':4,
           'tarih':'27.11.2020',
-          'yorumMetni':'Kahvelerasasl.'
+          'yorumMetni':'Kahveler iç iç bitmiyor.'
         }
         
       ]
