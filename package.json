@@ -11,11 +11,12 @@
   },
   "dependencies": {
     "cookie-parser": "^1.4.5",
-    "debug": "~2.6.9",
+    "debug": "^2.6.9",
     "express": "^4.16.4",
     "http-errors": "^1.6.3",
     "mongoose": "^5.11.9",
     "morgan": "^1.9.1",
+    "postman-request": "^2.88.1-postman.28",
     "pug": "^3.0.0",
     "serve-favicon": "^2.5.0"
   }

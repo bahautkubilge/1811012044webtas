@@ -2,7 +2,7 @@ doctype html
 html
   head
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title= baslik
+    title= title
     link(rel='stylesheet', href='/bootstrap/css/sinan.bootstrap.css')
   body
    .navbar-default.navbar.navbar-fixed-top
@@ -19,8 +19,6 @@ html
         a(href='/hakkinda') Hakkında
   .container
     block content
-    footer
-     .col-12
-      small &copy; #{footer}
   script(src='/javascripts/jquery-3.5.1.min.js')
   script(src='/bootstrap/js/bootstrap.min.js')
+  script(src='/javascripts/denetle.js')
